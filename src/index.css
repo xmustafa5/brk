@@ -19,8 +19,16 @@ code {
 .icons svg{
   margin-top: 8px;
 }
+.Regular{
+  font-family: Regular ;
+}
 @font-face {
   font-family: "Light";  
   src: local("NeurialGrotesk"),
     url("./fonts/NeurialGrotesk-Medium.otf") format("truetype");
+}
+@font-face {
+  font-family: "Regular";  
+  src: local("NeurialGrotesk"),
+    url("./fonts/NeurialGrotesk-Regular.otf") format("truetype");
 }

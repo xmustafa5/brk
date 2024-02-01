@@ -4,39 +4,41 @@ import { facebook, instagram, linkedIn } from "../assets/icons";
 import bgVideo from "../assets/video.mp4";
 
 const ComingSoon = () => {
-  const expiryTimestamp = new Date(2024, 1, 12);
+  const expiryTimestamp = new Date(2024, 1, 2);
 
   return (
     <div className={`relative flex`}>
       <div className="bg-blue-120  gap-4 h-screen flex justify-start items-center  w-[60%]">
         <div className="h-full pt-10 gap-7 flex justify-center items-start  flex-col ml-[15%]">
-          <p className="text-blue-120 bg-yellow-120 w-fit	p-1 ">
+        <div className="pt-6">
+          <p className="text-blue-120  bg-yellow-120 w-fit	p-1 Regular  text-base font-bold leading-5   uppercase ">
             Industrial Investment
           </p>
-          <div></div>
+        </div>
 
-          <h1 className="flex flex-col gap-3 uppercase text-white text-5xl font-semibold tracking-wider">
+          <h1 className="flex  flex-col gap-3  text-white text-5xl font-semibold tracking-wider">
             Your Supportive <span>Partner</span>
           </h1>
           <div className="overflow-hidden  ">
-            <p className="  max-w-[340px] text-md text-gray-200">
+            <p className="Regular  max-w-[350px] text-[14px]   text-[#F2F2F2]">
               So good. Im so picky about my music and Imagine Dragons NEVER
               disappoints. Thanks guys! Hope i get to see you oerform live one
               day. This is the best play list out there. I listen to it at work
               and i get so much done. That beat though.
             </p>
           </div>
-          <div>
+          <div className=" relative">
             <input
               type="text"
-              className=" appearance-none bg-blue-120 border-white w-[240px]  border h-10 placeholder:uppercase placeholder:grid placeholder:place-content-center placeholder:pl-3 text-white placeholder:text-gray-200 focus:placeholder:text-gray-400 placeholder:text-md"
+              className="Regular appearance-none bg-blue-120 border-white w-[240px]  border h-10  placeholder:grid placeholder:place-content-center placeholder:pl-3 text-white placeholder:text-gray-200 focus:placeholder:text-gray-400  placeholder:text-[14px] "
               placeholder="Enter your email address"
             />
-            <button className="bg-yellow-120 ml-4 h-10 p-1">Notify Me</button>
+            <button className="bg-yellow-120 ml-4 text-[14px] font-medium text-blue-120 h-10 uppercase p-2 leading-4 Regular">Notify Me</button>
+          <p className="Regular text-sm font-medium leading-4   absolute top-24 text-[#F2F2F2] left-0 ">© 2024 Al-Baraka Company. All Rights Reserved.</p>
           </div>
         </div>
       </div>
-      <div className="flex relative h-screen overflow-hidden  w-[40%] justify-center items-center">
+      <div className=" flex relative h-screen overflow-hidden  w-[40%] justify-center items-center">
         <video
           autoPlay
           loop

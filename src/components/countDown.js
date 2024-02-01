@@ -7,12 +7,12 @@ export default function CountDown({ expiryTimestamp }) {
   return (
     <div className="text-white font-medium flex w-full justify-center items-center gap-4  flex-col relative z-10 ">
      <div className="bg-yellow-120 w-fit justify-center items-center  ">
-    <p className="text-blue-120 p-1">
+    <p className="text-blue-120 bg-yellow-120 w-fit	p-1 Regular  text-base font-semibold leading-5  uppercase">
      
       We are lunching in
      </p>
      </div>
-     <div className="flex ">
+     <div className="flex">
 
       <div className=" flex justify-center items-center flex-col">
         <div className="flex justify-center items-center">
