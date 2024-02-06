@@ -4,27 +4,29 @@ import { facebook, instagram, linkedIn } from "../assets/icons";
 import bgVideo from "../assets/video.mp4";
 
 const ComingSoon = () => {
-  const expiryTimestamp = new Date(2024, 2, 2);
+  const expiryTimestamp = new Date(2024, 3, 6);
 
   return (
     <div className={`relative flex`}>
       <div className="bg-blue-120  gap-4 h-screen flex justify-start items-center  w-[60%]">
         <div className="h-full pt-10 gap-7 flex justify-center items-start  flex-col ml-[15%]">
-        <div className="pt-6">
-          <p className="text-blue-120  bg-yellow-120 w-fit	p-1 Regular  text-base font-bold leading-5   uppercase ">
-            Industrial Investment
-          </p>
-        </div>
+          <div className="pt-6">
+            <p className="text-blue-120  bg-yellow-120 w-fit	p-1 Regular  text-base font-bold leading-5   uppercase ">
+            Our Website is Getting Ready to Impress You!
+            </p>
+          </div>
 
           <h1 className="flex  flex-col gap-3  text-white text-5xl font-semibold tracking-wider">
-            Your Supportive <span>Partner</span>
+          Under Construction
+           {/* <span>Partner</span> */}
           </h1>
           <div className="overflow-hidden  ">
             <p className="Regular  max-w-[350px] text-[14px]   text-[#F2F2F2]">
-              So good. Im so picky about my music and Imagine Dragons NEVER
-              disappoints. Thanks guys! Hope i get to see you oerform live one
-              day. This is the best play list out there. I listen to it at work
-              and i get so much done. That beat though.
+              We're building something exciting to showcase the innovation,
+              quality, and excellence that define Al-Baraka Company for
+              Industrial Investments. Our full website is on its way, promising
+              to bring you a comprehensive look into how we're leading the way
+              in the plastic piping industry.
             </p>
           </div>
           <div className=" relative">
@@ -33,8 +35,12 @@ const ComingSoon = () => {
               className="Regular appearance-none bg-blue-120 border-white w-[240px]  border h-10  placeholder:grid placeholder:place-content-center placeholder:pl-3 text-white placeholder:text-gray-200 focus:placeholder:text-gray-400  placeholder:text-[14px] "
               placeholder="Enter your email address"
             />
-            <button className="bg-yellow-120 ml-4 text-[14px] font-medium text-blue-120 h-10 uppercase p-2 leading-4 Regular">Notify Me</button>
-          <p className="Regular text-sm font-medium leading-4   absolute top-24 text-[#F2F2F2] left-0 ">© 2024 Al-Baraka Company. All Rights Reserved.</p>
+            <button className="bg-yellow-120 ml-4 text-[14px] font-medium text-blue-120 h-10 uppercase p-2 leading-4 Regular">
+              Notify Me
+            </button>
+            <p className="Regular text-sm font-medium leading-4   absolute top-24 text-[#F2F2F2] left-0 ">
+              © 2024 Al-Baraka Company. All Rights Reserved.
+            </p>
           </div>
         </div>
       </div>
@@ -72,27 +78,27 @@ const ComingSoon = () => {
           <div className="w-20  p-3 flex items-center h-20">{logo}</div>
           <div>{canterIcons}</div>
           <div className="icons   ">
-          <a
-          href="https://www.linkedin.com/company/brk-company-for-industrial-investment/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {linkedIn}
-        </a>
-        <a
-          href="https://www.instagram.com/brkiq"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {instagram}
-        </a>
-        <a
-          href="https://www.facebook.com/brkiq"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {facebook}
-        </a>
+            <a
+              href="https://www.linkedin.com/company/brk-company-for-industrial-investment/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {linkedIn}
+            </a>
+            <a
+              href="https://www.instagram.com/brkiq"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {instagram}
+            </a>
+            <a
+              href="https://www.facebook.com/brkiq"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {facebook}
+            </a>
           </div>
         </div>
       </div>
