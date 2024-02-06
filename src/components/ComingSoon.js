@@ -4,7 +4,7 @@ import { facebook, instagram, linkedIn } from "../assets/icons";
 import bgVideo from "../assets/video.mp4";
 
 const ComingSoon = () => {
-  const expiryTimestamp = new Date(2024, 3, 6);
+  const expiryTimestamp = new Date(2024, 3, 7);
 
   return (
     <div className={`relative flex`}>
